@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".InputSurvey">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Nomor"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=":"/>
+
+    <EditText
+        android:id="@+id/edt_nomorsurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Survey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="NIP"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_nip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Induk Petugas"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_namapetugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Petugas"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nomor"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_nomoresponden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Responden"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_namaresponden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Responden"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Triwulan I"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_tw1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Triwulan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Trwulan II"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_tw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Triwulan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Triwulan III"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_tw3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Triwulan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TriwulanIV"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=":"/>
+
+        <EditText
+            android:id="@+id/edt_tw4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Triwulan"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/inputdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutTriwulan"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/bg_input"
+        android:text="Input"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/updatedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/bg_input"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/tampildata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/bg_input"
+        android:text="tampil"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>
